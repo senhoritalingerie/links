@@ -44,6 +44,9 @@ h1 {
 }
 
 .link-btn {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
     text-decoration: none;
     background: #ffffff;
     color: #191919;
@@ -52,6 +55,21 @@ h1 {
     font-weight: 500;
     transition: all 0.3s ease;
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.link-btn svg{
+    height: 24px;
+    width: 24px;
+    color: #444444;
+    transition: all 0.3s ease;
+}
+
+.link-btn:hover svg{
+    color: #ffffff;
+}
+
+.vip svg{
+    color: #d21515;
 }
 
 .link-btn:hover {
